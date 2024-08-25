@@ -1,0 +1,45 @@
+body {
+    background-color: #282828;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 350px;
+    color: #fff;
+}
+
+.container h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.container button:hover {
+    background-color: #b1b1b1;
+}
+
+@media (max-width: 1064px) {
+    .container h1 {
+        width: 165px;
+    }
+}
+
+@media (max-width: 510px) {
+    .container {
+        margin: 350px 50px 350px 0px;
+    }
+}
